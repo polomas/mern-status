@@ -3,8 +3,8 @@ import Home from './pages/Home'
 import Sining from './pages/Signin'
 import Profile from './pages/Profile'
 import About from './pages/About'
-import SigninUp from './pages/SigninUp'
 import Header from './components/Header'
+import SignUp from './pages/SignUp'
 export default function App() {
   return (
     <BrowserRouter className="text-blue-400 text-center">
@@ -12,7 +12,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/sign-in" element={<Sining/>}/>
-        <Route path="/signin-up" element={<SigninUp/>}/>
+        <Route path="/sign-up" element={<SignUp/>}/>
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
